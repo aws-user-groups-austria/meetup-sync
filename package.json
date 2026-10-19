@@ -1,0 +1,27 @@
+{
+  "name": "meetup-sync",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Turns a Meetup event page (URL or saved HTML) into event.json for the meetup evening stream.",
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "sync": "node src/cli.ts sync",
+    "id": "node src/cli.ts id",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "check": "tsc --noEmit && vitest run",
+    "archive": "node src/cli.ts archive"
+  },
+  "dependencies": {
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "typescript": "^5.9.3",
+    "vite": "^6.4.4",
+    "vitest": "^5.0.5"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "sessions": [
+    {
+      "id": "1001",
+      "title": "Teaching an AI to Debug Our Cloud: AWS DevOps Agent in Practice",
+      "description": "Sample abstract, not from Sessionize.",
+      "speakers": ["a-roman", "a-mladen"]
+    },
+    {
+      "id": "1002",
+      "title": "I don't trust my agents!",
+      "description": "Sample abstract for talk two.",
+      "speakers": ["a-darko"]
+    }
+  ],
+  "speakers": [
+    { "id": "a-roman", "fullName": "Roman Jokel", "tagLine": "Sample tagline", "profilePicture": "https://sessionize.com/image/sample-roman.jpg", "sessions": [1001] },
+    { "id": "a-mladen", "fullName": "Mladen Trampic", "tagLine": null, "profilePicture": "https://sessionize.com/image/sample-mladen.jpg", "sessions": [1001] },
+    { "id": "a-darko", "firstName": "Darko", "lastName": "Mesaros", "tagLine": "Sample tagline", "profilePicture": "http://insecure.example/darko.jpg", "sessions": [1002] }
+  ]
+}

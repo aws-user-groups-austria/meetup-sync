@@ -16,7 +16,7 @@
     "archive": "node src/cli.ts archive"
   },
   "dependencies": {
-    "zod": "^3.25.76"
+    "zod": "^4.6.7"
   },
   "devDependencies": {
     "@types/node": "^24.19.2",

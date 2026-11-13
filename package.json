@@ -2,6 +2,7 @@
   "name": "meetup-sync",
   "version": "0.1.0",
   "private": true,
+  "license": "CC-BY-NC-SA-4.0",
   "description": "Turns a Meetup event page (URL or saved HTML) into event.json for the meetup evening stream.",
   "type": "module",
   "engines": {
@@ -21,7 +22,7 @@
   "devDependencies": {
     "@types/node": "^24.19.2",
     "typescript": "^5.9.3",
-    "vite": "^6.4.4",
-    "vitest": "^5.0.5"
+    "vite": "^6.4.6",
+    "vitest": "^5.1.0"
   }
 }

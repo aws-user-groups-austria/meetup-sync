@@ -151,6 +151,9 @@ npm run typecheck
 npm audit
 ```
 
+The "CI" workflow runs the typecheck and the tests (`npm run check`) on every
+pull request and every push to `main`.
+
 ## Layout
 
 | Path | What |
@@ -165,3 +168,12 @@ npm audit
 | `src/event.schema.ts` | The shared schema, copied verbatim |
 | `tests/` | vitest suites (see `tests/README.md`) |
 | `tests/fixtures/` | The saved Meetup page, scrubbed of tokens and account ids (see `tests/fixtures/README.md`) |
+
+## Licence
+
+[CC BY-NC-SA 4.0](LICENSE): free for volunteer-run user groups and other
+non-commercial communities to use and adapt, with attribution and under the same
+licence. Not for commercial use without written permission.
+
+The licence covers the tool. What it reads from Meetup and Sessionize belongs to
+its authors and to those services.
